@@ -31,12 +31,12 @@ const requisitos = [
   {
     titulo: "Vestimenta estrictamente formal",
     detalle:
-      "Se ruega a la Srta. Orellana presentarse ataviada con indumentaria de carácter formal. Se tolerará, como es habitual y ya debidamente documentado, el característico aroma corporal al que la concurrencia se encuentra ampliamente acostumbrada.",
+      "Se ruega a la Srta. Orellana presentarse ataviada con indumentaria de carácter formal. Se tolerará, como es habitual y ya debidamente documentado, el característico olor a qlo al que la concurrencia se encuentra ampliamente acostumbrada.",
   },
   {
     titulo: "Un (1) muñeco de Stitch",
     detalle:
-      "Deberá exhibir al menos un (1) peluche de Stitch al momento del acceso. Su omisión será penalizada con una fotografía comprometedora tomada sin previo aviso, a discreción del anfitrión.",
+      "Requisito excluyente de acceso: la Srta. Orellana deberá exhibir al menos un (1) peluche de Stitch al momento del ingreso. Su ausencia implicará el rechazo automático en la puerta, sin posibilidad de apelación ni reembolso emocional.",
   },
   {
     titulo: "Una (1) o más gomitas capilares",
@@ -142,7 +142,7 @@ export default function Page() {
           <dt className="font-semibold">Fecha:</dt>
           <dd>Martes 21 de abril de 2026.</dd>
           <dt className="font-semibold">Hora:</dt>
-          <dd>Cae la tarde, asciende el hambre (20 : qlo aprox.).</dd>
+          <dd>Por la noche.</dd>
           <dt className="font-semibold">Lugar:</dt>
           <dd>Casa de Pepi.</dd>
           <dt className="font-semibold">Código:</dt>
@@ -331,8 +331,9 @@ export default function Page() {
         </h2>
         <p className="mt-2 text-sm text-stitch-navy/85">
           La Srta. Orellana tendrá a bien confirmar su presencia pulsando el
-          botón infra. Requisitos inexcusables: <strong>elegir medallón</strong>{" "}
-          y <strong>aceptar el peaje almohadil</strong>. Al confirmar, se abrirá
+          botón dispuesto a continuación. Requisitos inexcusables:{" "}
+          <strong>elegir medallón</strong> y{" "}
+          <strong>aceptar el peaje almohadil</strong>. Al confirmar, se abrirá
           WhatsApp con la comunicación oficial pre-redactada.
         </p>
 
