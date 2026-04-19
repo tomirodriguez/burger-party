@@ -16,9 +16,22 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Invitación Formal · Burger Party 626",
+  title: "Invitación Formal · Burger Party",
   description:
-    "Invitación oficial para la Srta. Jazmin Orellana — Cena formal temática Stitch.",
+    "Invitación oficial para la Srta. Jazmin Orellana. Cena formal, dress code estricto, peluche obligatorio.",
+  openGraph: {
+    title: "Invitación Formal · Burger Party",
+    description:
+      "Para la Srta. Jazmin Orellana. Cena formal, martes 21 de abril, Casa de Pepi.",
+    type: "website",
+    locale: "es_AR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Invitación Formal · Burger Party",
+    description:
+      "Para la Srta. Jazmin Orellana. Cena formal, martes 21 de abril, Casa de Pepi.",
+  },
 };
 
 export default function RootLayout({
